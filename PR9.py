@@ -21,7 +21,7 @@ n = int(input("Введите число n: "))
 CURRENT = 1
 
 
-# Пока не дойдем до n
+# пока не дойдем до n
 while CURRENT <= n:
   if not (5 <= CURRENT <= 9 or 17 <= CURRENT <= 37 or 78 <= CURRENT <= 87):
       print(CURRENT)
